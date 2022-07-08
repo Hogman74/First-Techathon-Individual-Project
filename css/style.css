@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    Box-sizing: border-box;
+
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    text-align: center;
+    font-family: "Red Hat Display", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.hero-div {
+    width: 450px;
+    height: 300px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.hero {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.order-div {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    background-color: white;
+    margin-left: 32px;
+    margin-right: 32px;
+
+}
+
+h1 {
+    padding-bottom: 20px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.order {
+    color: hsl(224, 23%, 55%);
+    padding-bottom: 40px;
+}
+
+
+.music {
+    border-radius: 50px;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    margin-left: 20px;
+
+}
+
+.music-art {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 20px;
+    margin: 0 40px;
+    padding: 30px 0;
+    display: flex;
+
+}
+
+.music-sec {
+    background: white;
+    margin-left: 32px;
+    margin-right: 32px;
+
+}
+
+
+.plan-div {
+    padding: 0px 100px 0px 20px;
+
+}
+
+
+#plan {
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+
+
+}
+
+#amount {
+    color: hsl(224, 23%, 55%);
+    padding-top: 10px;
+}
+
+#link {
+    color: hsl(245, 75%, 52%);
+    font-weight: 500;
+}
+
+.btn-sec {
+    margin-left: 32px;
+    margin-right: 32px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: white;
+}
+
+button {
+    width: 80%;
+    padding: 10px;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    color: hsl(225, 100%, 98%);
+}
+
+.btn1-div {
+    padding-top: 30px;
+    font-weight: 500;
+}
+
+.btn2-div {
+    color: hsl(223, 47%, 23%);
+    background-color: white;
+    margin-top: 20px;
+    border: 0;
+    font-weight: 500;
+}
